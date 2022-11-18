@@ -25,3 +25,7 @@ require (
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	howett.net/plist v1.0.0 // indirect
 )
+
+replace go.elastic.co/apm/module/apmlambda/v2 => github.com/lahsivjar/apm-agent-go/module/apmlambda/v2 v2.1.1-0.20221124044311-896ddd46962f
+
+replace go.elastic.co/apm/v2 => github.com/lahsivjar/apm-agent-go/v2 v2.1.1-0.20221124044311-896ddd46962f
